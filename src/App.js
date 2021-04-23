@@ -14,6 +14,7 @@ class App extends React.Component{
     this.handleChange=this.handleChange.bind(this)
   }
   handleChange(id){
+    
     this.setState(prevState =>{
       const updatedtodos = prevState.todos.map(todo => {
         if (todo.id === id){
@@ -25,13 +26,13 @@ class App extends React.Component{
         todos:updatedtodos
       }
     })
-  }
     
+  }
     
     
   
   render(){
-    const todoitem = this.state.todos.map(item => <Maincontent key={item.id} item = {item.item} change ={item.change} handleChange ={this.handleChange} />)
+    const todoitem = this.state.todos.map(item => <Maincontent key ={item.id} item={item} handleChange={this.handleChange}/>)
     
     return(
       <div>

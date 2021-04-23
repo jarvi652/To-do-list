@@ -4,9 +4,9 @@ class Navbar extends React.Component{
     render(){ 
         return(
             <div className ="navbar">
-                <p className= "nav-item">Home</p>
-                <p className= "nav-item">About</p>
-                <p className= "nav-item">Status</p>
+                <p className= "nav-item">To-do-App</p>
+                <button className= "btn">Add-task</button>
+                    
             </div>
         )
     }

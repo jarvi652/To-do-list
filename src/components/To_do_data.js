@@ -1,32 +1,32 @@
 const  Tododata= [
 {
     id:1,
-    item :'Check facebook',
-    completed:true
+    text :'Check facebook',
+    completed:false
     
 },
 {
     id:2,
-    item :'Update instagram',
+    text :'Update instagram',
     completed:true
     
 },
 {
     id:3,
-    item :'get groceries',
+    text :'Get groceries',
     completed:true
     
 },
 {
     id:4,
-    item :'write a paper',
-    completed:true
+    text :'Write a paper',
+    completed:false
     
 },
 {
     id:5,
-    item :'take exam',
-    completed:true
+    text :'Take exam',
+    completed:false
     
 }
 ]
