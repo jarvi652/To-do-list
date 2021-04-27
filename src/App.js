@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Maincontent from './components/Maincontent'
 import Navbar from './components/Navbar'
 import './App.css'
 import Tododata from './components/To_do_data' 
 
 
-class App extends React.Component{
+class App extends Component{
   constructor(){
     super()
     this.state ={
@@ -41,5 +41,6 @@ class App extends React.Component{
       </div>
     )
   }
+  
 }
 export default App
